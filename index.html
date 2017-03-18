@@ -3,11 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Wikipedia Viewer</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		
+	<div class="container-fluid text-center">
+		<h1>Wikipedia Viewer</h1>
+		<form>
+			<div class="search-box" name="search">
+				<input class="input" type="text" name="search" placeholder="search article">
+				<img  class="search-img" src="img/search-icon.png">
+			</div>
+		</form>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/app.js"></script>
