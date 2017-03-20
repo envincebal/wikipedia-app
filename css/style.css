@@ -2,10 +2,17 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: "Raleway", sans-serif;
+	color: #FBB169;
 }
 
-html, body, input {
-	background-color:  #FBB169;
+::-webkit-input-placeholder{
+  color: #fff;
+  font-size: 20px;
+}
+
+html, body, input, img, button {
+	background-color:  #13557C;
 }
 
 .container-fluid {
@@ -14,24 +21,54 @@ html, body, input {
 }
 
 h1 {
-	font-family:'Sorts Mill Goudy', Times;
-	color: #2D7FB0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color:  #FBB169;
 }
 
 .input {
 	border: none;
-	border-bottom: 2px solid #2D7FB0;
+	border-bottom: 2px solid #FBB169;
 	outline: none;
-	height: 30px;
-	width: 40%;
+	height: 35px;
+	width: 500px;
+	caret-color: #FFF;
+	color: #FFF;
+	font-size: 20px;
 }
 
 .input:focus {
-	border-bottom: 3px solid #2D7FB0;
+	border-bottom: 3px solid #FBB169;
+	outline: none;
 }
 
 .search-img {
 	width: 20px;
 	height: 20px;
-	outline: none;
+	position: relative;
+	right: 25px;
+	bottom: 3px;
+	cursor: pointer;
 }
+
+.random {
+	border: 2px solid #FBB169;
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px 0 0 0;
+}
+
+.random:hover {
+	background-color: #FBB169;
+	color: #13557C;
+}
+
+/* .random a:hover {
+	color: #13557C;
+} */
+
+.random a {
+	text-decoration: none;
+	color: #FBB169;
+}
+
