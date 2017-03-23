@@ -4,10 +4,11 @@
 	margin: 0;
 	font-family: "Raleway", sans-serif;
 	color: #FBB169;
+	letter-spacing: 0.1em;
 }
 
-::-webkit-input-placeholder{
-  color: #fff;
+::-webkit-input-placeholder {
+  color: #CBCBCB;
   font-size: 20px;
 }
 
@@ -17,7 +18,7 @@ html, body, input, img, button {
 
 .container-fluid {
 	margin: 0 auto;
-	max-width: 1280px;
+	margin: 250px 0 0 0;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
 }
 
 .input {
+	margin: 25px 0 0 0;
 	border: none;
 	border-bottom: 2px solid #FBB169;
 	outline: none;
@@ -53,9 +55,12 @@ h1 {
 
 .random {
 	border: 2px solid #FBB169;
+	border-radius: 3px;
+	color: #FBB169;
 	font-size: 15px;
 	padding: 5px;
-	margin: 10px 0 0 0;
+	margin: 15px 0 0 0;	
+
 }
 
 .random:hover {
@@ -63,12 +68,12 @@ h1 {
 	color: #13557C;
 }
 
-/* .random a:hover {
-	color: #13557C;
-} */
-
 .random a {
 	text-decoration: none;
-	color: #FBB169;
 }
 
+@media only screen and (max-width: 560px) {
+	.input {
+		width: 270px;
+	}
+}
