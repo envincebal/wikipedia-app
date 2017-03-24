@@ -18,7 +18,12 @@ html, body, input, img, button {
 
 .container-fluid {
 	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.content {
 	margin: 250px 0 0 0;
+	width: 100%;
 }
 
 h1 {
@@ -33,7 +38,7 @@ h1 {
 	border-bottom: 2px solid #FBB169;
 	outline: none;
 	height: 35px;
-	width: 500px;
+	width: 50%;
 	caret-color: #FFF;
 	color: #FFF;
 	font-size: 20px;
@@ -74,6 +79,6 @@ h1 {
 
 @media only screen and (max-width: 560px) {
 	.input {
-		width: 270px;
+		width: 80%;
 	}
 }
