@@ -3,7 +3,6 @@
 	padding: 0;
 	margin: 0;
 	font-family: "Raleway", sans-serif;
-	color: #FBB169;
 	letter-spacing: 0.1em;
 }
 
@@ -16,6 +15,11 @@ html, body, input, img, button {
 	background-color:  #13557C;
 }
 
+.header {
+	color: #FBB169;
+	font-weight: 700;
+}
+
 .container-fluid {
 	margin: 0 auto;
 	max-width: 1000px;
@@ -24,12 +28,6 @@ html, body, input, img, button {
 .content {
 	margin: 250px 0 0 0;
 	width: 100%;
-}
-
-h1 {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	color:  #FBB169;
 }
 
 .input {
@@ -73,7 +71,26 @@ h1 {
 	color: #13557C;
 }
 
-.random a {
+.search-results {
+	margin: 50px 0 0 0;
+}
+
+.list-item {
+	list-style: none;
+	text-align: left;
+	padding: 5px 25px;
+	margin: 10px;	
+	background-color: #2987BF;
+	color: #fff;
+}
+
+.list-item:hover {
+	background-color: #FBB169;
+}
+
+.item-link:hover,
+.item-link:visited,
+.item-link:link {
 	text-decoration: none;
 }
 
