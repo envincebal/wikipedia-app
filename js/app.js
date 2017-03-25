@@ -20,6 +20,10 @@ function searching(event){
 	$results.html('');
 
 	moveUp();
+
+	if (userInput === "") {
+		$results.append("<li class='list-item'><h2 class='item-header'>Please enter search inquiry</h2></li>")
+	}
 	
 	$.ajax({
 		type: "GET",
