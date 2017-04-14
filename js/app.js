@@ -22,7 +22,8 @@ function searching(event){
 	moveUp();
 
 	if (userInput === "") {
-		$results.append("<li class='list-item'><h2 class='item-header'>Please enter search inquiry</h2></li>")
+		$results.append("<li class='list-item'><h2 class='item-header'>Please enter search inquiry</h2></li>");
+		return false;
 	}
 	
 	$.ajax({
@@ -37,8 +38,8 @@ function searching(event){
 			}
 		},
 		error: function(){
-			$results.append("<li class='list-item'><h2 class='item-header'>Error! Could not retrieve data</h2></li>")
-		}
+			$results.append("<li class='list-item'><h2 class='item-header'>Error! Could not retrieve data</h2></li>");
+			}
 	});
 }
 
