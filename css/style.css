@@ -88,6 +88,10 @@ html, body, input, img, button {
 	background-color: #FBB169;
 }
 
+#error {
+	background-color: #D24848;
+}
+
 .item-link:hover,
 .item-link:visited,
 .item-link:link {
