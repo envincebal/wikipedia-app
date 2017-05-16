@@ -86,7 +86,8 @@ html, body, input, img, button {
 }
 
 .list-item:hover {
-	background-color: #FBB169;
+	border-left: 7px #FBB169 solid;
+	border-right: 7px #FBB169 solid;
 }
 
 #error {
