@@ -83,11 +83,11 @@ html, body, input, img, button {
 	margin: 10px;	
 	background-color: #2987BF;
 	color: #fff;
+	border-left: 7px solid transparent;
 }
 
 .list-item:hover {
 	border-left: 7px #FBB169 solid;
-	border-right: 7px #FBB169 solid;
 }
 
 #error {
